@@ -2,7 +2,7 @@ function createMenu() {
 
 }
 function changeHref(){
-  let path = "src/templates/";
+  let path = "/testSite/src/templates/";
   document.getElementById("perception").href = path + "1_perception/";
   document.getElementById("singing").href    = path + "2_singing/";
   document.getElementById("musicActiv").href = path + "3_musicActiv/";
