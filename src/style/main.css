@@ -2,7 +2,7 @@ html, body {
   font-family: 'Georgia', sans-serif;
   background-color: #ffdca3;
   font-size: 14pt;
-
+  overflow-x: hidden; 
 }
 
 h1 {
@@ -25,5 +25,4 @@ h1 {
   margin-left: 50%;
   transform: translateX(-50%);
   height: 50%;
-
 }
