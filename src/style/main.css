@@ -1,0 +1,28 @@
+html, body {
+  font-family: 'Georgia', sans-serif;
+  background-color: #ffdca3;
+  font-size: 14pt;
+
+}
+
+h1 {
+  margin: 20px 0 0 80px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-around;  
+  flex-direction: column;
+  margin: 20px 0 0 80px;
+}
+#decriptMain {
+  
+}
+
+#imgMain {
+  border: 5px dotted red;
+  border-radius: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  height: 50%;
+}
