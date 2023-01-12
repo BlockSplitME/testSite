@@ -2,8 +2,8 @@ function createMenu() {
 
 }
 function changeHref(){
-  let path = "https://blocksplitme.github.io/testSite/src/templates/";
-  document.getElementById("precept").href    = path + "1_precept/";
+  let path = "/src/templates/";
+  document.getElementById("perception").href = path + "1_perception/";
   document.getElementById("singing").href    = path + "2_singing/";
   document.getElementById("musicActiv").href = path + "3_musicActiv/";
   document.getElementById("gamesDMI").href   = path + "4_gamesDMI.html";
