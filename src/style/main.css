@@ -5,8 +5,14 @@ html, body {
   overflow-x: hidden; 
 }
 
-h1 {
-  margin: 20px 0 0 80px;
+@media all and (max-width:800px ) {
+  html, body {
+    font-size: 12pt;
+  }
+}
+
+header {
+  margin: 2% 0 0 5%;
 }
 
 .flex {
