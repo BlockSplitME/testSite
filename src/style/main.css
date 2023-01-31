@@ -1,6 +1,10 @@
+html {
+  width: 100%;
+  height: 100%;
+}
 html, body {
-  font-family: 'Georgia', sans-serif;
-  background-color: #ffdca3;
+  font-family: 'courier', sans-serif;
+  background-color: #D6E6F2;
   font-size: 14pt;
   overflow-x: hidden; 
 }
@@ -12,15 +16,22 @@ html, body {
 }
 
 header {
-  margin: 2% 0 0 5%;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  padding: 0 0 0 2%;
+  background-color: #b9d7ea;
+  position: absolute;
 }
 
 .flex {
   display: flex;
-  justify-content: space-around;  
-  flex-direction: column;
   margin: 20px 0 0 80px;
+  width: 50%;
+  justify-content: center;  
 }
+
 #decriptMain {
   
 }
@@ -31,4 +42,15 @@ header {
   margin-left: 50%;
   transform: translateX(-50%);
   height: 50%;
+}
+/*for восприятие*/
+.head {
+  width: 100%;
+  text-align: center;
+  font-size: 17pt;
+  margin-top: 7%;
+}
+.main {
+  font-size: 19pt;
+  margin: 2% 10% 0 10%;
 }
