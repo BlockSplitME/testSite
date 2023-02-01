@@ -12,7 +12,7 @@ function changeHref(){
 
 }
 
-function openMenuList(mainPage) {
+function openMenuList(mainPage = 0) {
   let path = "../../../src/pict/";
   if(mainPage) {
     path = "/testSite/src/pict/";
