@@ -43,14 +43,18 @@ header {
   transform: translateX(-50%);
   height: 50%;
 }
+
 /*for восприятие*/
 .head {
+  position: absolute;
   width: 100%;
+  top: 100px;
   text-align: center;
   font-size: 17pt;
-  margin-top: 7%;
 }
 .main {
+  position: absolute;
+  top: 260px;
   font-size: 19pt;
-  margin: 2% 10% 0 10%;
+  margin: 0 10% 0 10%;
 }
