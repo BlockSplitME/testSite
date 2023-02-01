@@ -15,10 +15,12 @@
 	<body>
 		<header>
 			<h1> Главная страница </h1>
+			<div class="menuButton">
+				<input type=”checkbox” name="menuCheckBox" id="menuCheckBox">
+				<img id="imgMenu" onclick="openMenuList()" src="../../../src/pict/menu.png" alt="menuButton">
+			</div>
 			<!-- ------------------------------Бургер меню---------------------- -->	
-			<label >
-				<input type="checkbox">
-				<div class="menu"> <div class="hamburger"></div> </div>
+			<div class="menuList">
 				<dl>
 				  <dt> <a id="main" 	  href="#">Главная страница</a> </dt>	
 				  <dt> <a id="perception" href="#">Восприятие</a> </dt>
@@ -30,15 +32,14 @@
 				  <dt> <a id="archive"    href="#">Архив</a> </dt>
 				  <dt> <a id="contact"    href="#">Обратная связь</a> </dt>
 				</dl>
-			</label> 
+			</div>
 			<!-- Изменение ссылок на элементы -->
 			<script>
 				changeHref();
 			</script>
 		</header>
-		<div class="flex"> 
-			<p id="decriptMain"> Я ритос и это мой влог.</p>
-			<img id="imgMain" style="width: 25%;" src="https://sun9-west.userapi.com/sun9-71/s/v1/ig2/xZwA7kmdPVYcFrtj44yJNoggKzo2n4S1VLyTWOlgq9l7iayRXpEA8OVKyF_gVv7diedXoPrpTWfQ8BrAIReGIn0P.jpg?size=1621x2160&quality=95&type=album" alt="ritos"> 
+		<div class="main">
+			<p>Пока что здесь пусто.</p>
 		</div>
 	</body>
 </html>

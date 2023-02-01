@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Восприятие</title>
+		<title>Архив</title>
 		
 		<link rel="stylesheet" href="../../../src/style/menu.css">
 		<link rel="stylesheet" href="../../../src/style/main.css">
@@ -14,11 +14,13 @@
 	</head>
 	<body>
 		<header>
-			<h1> Восприятие </h1>
+			<h1> Архив </h1>
+			<div class="menuButton">
+				<input type=”checkbox” name="menuCheckBox" id="menuCheckBox">
+				<img id="imgMenu" onclick="openMenuList()" src="../../../src/pict/menu.png" alt="menuButton">
+			</div>
 			<!-- ------------------------------Бургер меню---------------------- -->	
-			<label >
-				<input type="checkbox">
-				<div class="menu"> <div class="hamburger"></div> </div>
+			<div class="menuList">
 				<dl>
 				  <dt> <a id="main" 	  href="#">Главная страница</a> </dt>	
 				  <dt> <a id="perception" href="#">Восприятие</a> </dt>
@@ -30,31 +32,11 @@
 				  <dt> <a id="archive"    href="#">Архив</a> </dt>
 				  <dt> <a id="contact"    href="#">Обратная связь</a> </dt>
 				</dl>
-			</label> 
+			</div>
 			<!-- Изменение ссылок на элементы -->
 			<script>
 				changeHref();
 			</script>
 		</header>
-		<div class="flex"> 
-			<h2> Восприятие </h2>
-			<p> Ультра мега жесткий сайт. Тритатушки-тритата!
-				Два укурка — три мента!
-				Мне вертушка-кислотушка
-				Очень сильно помогла
-				Разобраться что к чему
-				Уточнить здесь, что, да как!
-				Нужно запатентовать
-				Кислотушка-кислотушка!
-				Тритатушки-тритата!
-				Два укурка — три мента!
-				Мне вертушка-кислотушка
-				Очень сильно помогла
-				Разобраться что к чему
-				Уточнить здесь, что, да как!
-				Нужно запатентовать
-				Кислотушка-препарат!</p> 
-			<img src="https://sun9-north.userapi.com/sun9-87/s/v1/ig2/W4fnfhdOUuVlknPoUzW7zsK_9c5YWSjRigOghz4OugeV62_HFOycglX8PztagQGTJD76FlaJPp364UA33XM9iPfw.jpg?size=2560x1697&quality=95&type=album" alt="testIm" style="width: 40%;">
-		</div>
 	</body>
 </html>

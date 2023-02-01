@@ -22,7 +22,8 @@ header {
   height: 100px;
   padding: 0 0 0 2%;
   background-color: #b9d7ea;
-  position: absolute;
+  position: fixed;
+  z-index: 200;
 }
 
 .flex {
@@ -32,9 +33,6 @@ header {
   justify-content: center;  
 }
 
-#decriptMain {
-  
-}
 
 #imgMain {
   border: 5px dotted red;
@@ -54,7 +52,8 @@ header {
 }
 .main {
   position: absolute;
-  top: 260px;
+  top: 240px;
   font-size: 19pt;
   margin: 0 10% 0 10%;
 }
+
