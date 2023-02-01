@@ -12,15 +12,19 @@ function changeHref(){
 
 }
 
-function openMenuList() {
+function openMenuList(mainPage) {
+  let path = "../../../src/pict/";
+  if(mainPage) {
+    path = "/testSite/src/pict/";
+  }
   document.querySelector('.menuList').style.display = 'block';
   if(document.querySelector('#menuCheckBox').checked == true) {
     document.querySelector('#menuCheckBox').checked = false;
-    document.querySelector('#imgMenu').src = "../../../src/pict/menu.png";
+    document.querySelector('#imgMenu').src = path + "menu.png";
     document.querySelector('.menuList').style.display = "none";
   } else {
     document.querySelector('#menuCheckBox').checked = true;
-    document.querySelector('#imgMenu').src = "../../../src/pict/close.png";
+    document.querySelector('#imgMenu').src = path + "close.png";
     document.querySelector('.menuList').style.display = "block";
   
   }
