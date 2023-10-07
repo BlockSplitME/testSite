@@ -55,6 +55,7 @@ header {
   top: 240px;
   font-size: 19pt;
   margin: 0 10% 0 10%;
+  text-align:justify;
 }
 .mainDMI {
    top: 170px !important;
