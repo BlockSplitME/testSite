@@ -58,5 +58,6 @@ header {
 }
 .mainDMI {
    top: 170px !important;
+   text-align:justify;
 }
 
