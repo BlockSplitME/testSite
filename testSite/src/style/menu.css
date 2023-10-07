@@ -1,0 +1,50 @@
+.menuButton {
+  z-index: 200;
+  position: fixed;
+  right: -100px;
+  top: -100px;;
+  height: 200px;
+  width: 200px;
+  background-color: #F7FBFC;
+  border-radius: 50% 50% 50% 50%;
+}
+.menuButton img, input{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 40px;
+  bottom: 35px;
+  cursor: pointer;
+}
+input {
+  visibility: hidden;
+}
+.menuList {
+  background-color: #F7FBFC;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  display: none;
+}
+.menuList dl {
+  z-index: 200;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.menuList a {
+  margin-bottom: 1em;
+  display: block;
+  color: #769FCD;
+  text-decoration: none;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: 900;
+}
+
