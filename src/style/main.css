@@ -3,10 +3,10 @@ html {
   height: 100%;
 }
 html, body {
-  font-family: 'courier', sans-serif;
-  background-color: #D6E6F2;
-  font-size: 14pt;
-  overflow-x: hidden; 
+  font-family: 'courier', sans-serif !important; 
+  background-color: #D6E6F2 !important;
+  font-size: 14pt !important;
+  overflow-x: hidden !important; 
 }
 
 @media all and (max-width:800px ) {
@@ -14,22 +14,25 @@ html, body {
     font-size: 12pt;
   }
 }
-
+h1 {
+  font-size: 2em !important;
+  font-weight: bold !important;
+  margin-top: 0.67em !important;
+}
 header {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-  padding: 0 0 0 2%;
-  background-color: #b9d7ea;
-  position: fixed;
-  z-index: 200;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100px !important;
+  padding: 0 0 0 2% !important;
+  background-color: #b9d7ea !important;
+  position: fixed !important;
+  z-index: 200 !important;
 }
 
 .flex {
   display: flex;
   margin: 20px 0 0 80px;
-  width: 50%;
   justify-content: center;  
 }
 
@@ -50,11 +53,12 @@ header {
   text-align: center;
   font-size: 17pt;
 }
+
 .main {
   position: absolute;
   top: 240px;
-  font-size: 19pt;
-  margin: 0 10% 0 10%;
+  font-size: 19pt ;
+  margin: 0 10% 0 10% ;
   text-align:justify;
 }
 .mainDMI {
@@ -62,3 +66,9 @@ header {
    text-align:justify;
 }
 
+#gallery .col {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
